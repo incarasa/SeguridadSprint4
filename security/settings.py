@@ -77,15 +77,15 @@ WSGI_APPLICATION = 'security.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': "disponibilidad_db",
-        'USER': "disponibilidad_user",
-        'PASSWORD': "password",
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
-}
+     'default': {
+         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+         'NAME': 'monitoring_db',
+         'USER': 'monitoring_user',
+         'PASSWORD': 'isis2503',
+         'HOST': '10.128.0.60',
+         'PORT': '',
+     }
+ }
 
 
 # Password validation
